@@ -1,0 +1,9 @@
+dist
+package-lock.json
+.next
+.idea
+coverage
+.gitlab
+.husky
+node_modules
+storybook-static

@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+		"baseUrl": "./src", // this must be specified if "paths" is specified.
+		"paths": {
+			"@atoms/*": ["components/atoms/*"],
+			"@molecules/*": ["components/molecules/*"],
+			"@organisms/*": ["components/organisms/*"],
+			"@templates/*": ["components/templates/*"],
+			"@pages/*": ["components/pages/*"],
+			"@redux/*": ["redux/*"],
+			"@core/*": ["components/core/*"],
+			"@framework/*": ["framework/rest/*"],
+			"@utils/*": ["components/core/utils/*"],
+			"@assets/*": ["assets/*"],
+			"@types": ["types"],
+			"@theme": ["theme"],
+			"@styles/*": ["theme/*"],
+			"@storybook/*": ["../.storybook/*"]
+		}
+	},
+	"include": ["src"]
+}
