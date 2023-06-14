@@ -20,7 +20,7 @@ Once entered into the app, a list of musical themes and a carousel are displayed
 
 ## Demo
 
-https://challenge-dxc.vercel.app/
+https://challenge-dxc-rhs1.vercel.app/
 
 ## REPOSITORY
 
